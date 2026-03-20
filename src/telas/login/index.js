@@ -11,12 +11,9 @@ export default function Login () {
 
     return(
         <View>
-            <Text>
-               Login
-            </Text>
             <TouchableOpacity onPress={() => navigation.navigate('MyTabs')}>
             <Text>
-               Acesso
+               Entrar
             </Text>
             </TouchableOpacity>
         </View>
