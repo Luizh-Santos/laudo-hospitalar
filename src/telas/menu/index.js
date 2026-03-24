@@ -7,7 +7,7 @@ export default function Menu () {
                 Menu
             </Text>
             <Text>
-                Paciente
+                Laudo
             </Text>
         </View>
     )

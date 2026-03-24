@@ -4,7 +4,7 @@ export default function Laudos () {
     return(
         <View>
             <Text>
-               Laudos
+               Laudo
             </Text>
             <Text>
                Menu
