@@ -1,7 +1,14 @@
+// A página possui erros e melhorias, das quais são as seguintes:   25/03 ; 20:22
+
+// 1. Página não responsiva                                         25/03 ; 20:22
+// 2. Página ultrapassa a StatusBar                                 25/03 ; 20:22
+
+
 import React from "react";
 import { View, Text, TextInput, TouchableOpacity, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import styles from "./styles";
+import { StatusBar } from "expo-status-bar"
 
 export default function Login() {
   const navigation = useNavigation();
