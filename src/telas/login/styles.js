@@ -9,8 +9,8 @@ const styles = StyleSheet.create({
   },
 
   frame: {
-    width: 393,
-    height: 852,
+    width: "100%",
+    height: "100%",
     backgroundColor: "#F4F4F4",
     borderWidth: 1,
     borderColor: "#DDDDDD",

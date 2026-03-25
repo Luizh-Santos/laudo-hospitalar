@@ -7,7 +7,11 @@ const Stack = createNativeStackNavigator();
 export default function RootStack() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Login" component={Login} />
+      <Stack.Screen
+        name="Login"
+        component={Login}
+        options={{ headerShown: false }}
+      />
       <Stack.Screen name="MyTabs" component={MyTabs} />
     </Stack.Navigator>
   );
