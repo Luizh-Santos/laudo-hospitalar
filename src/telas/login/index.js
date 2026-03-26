@@ -11,6 +11,7 @@ import styles from "./styles";
 import { StatusBar } from "expo-status-bar"
 
 export default function Login() {
+
   const navigation = useNavigation();
 
   return (
@@ -45,10 +46,7 @@ export default function Login() {
           <Text style={styles.forgotText}>Esqueci minha senha</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => navigation.navigate("MyTabs")}
-        >
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("MyTabs")}>
           <Text style={styles.buttonText}>ENTRAR</Text>
         </TouchableOpacity>
 
