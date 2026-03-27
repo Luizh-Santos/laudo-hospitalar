@@ -9,7 +9,7 @@ export default function App() {
       <NavigationContainer>
         <RootStack />
       </NavigationContainer>
-      <StatusBar style="auto" />
+      <StatusBar style="auto"/>
     </View>
   );
 }
