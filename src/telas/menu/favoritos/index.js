@@ -1,13 +1,10 @@
 import {View, Text} from 'react-native' 
 
-export default function Menu () {
+export default function Favoritos () {
     return(
         <View>
             <Text>
                 Menu
-            </Text>
-            <Text>
-                Paciente
             </Text>
         </View>
     )
