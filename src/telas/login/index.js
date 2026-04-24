@@ -11,10 +11,10 @@ export default function Login({ navigation }) {
   function handleLogin() {
     setErro('');
 
-    if (!email || !senha) {
-      setErro('Preencha e-mail e senha.');
-      return;
-    }
+    // if (!email || !senha) {
+    //   setErro('Preencha e-mail e senha.');
+    //   return;
+    // }
 
     navigation.replace('MyTabs');
   }
